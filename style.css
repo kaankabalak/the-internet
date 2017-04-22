@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'helvetica',arial;
+    font-weight: lighter;
+}
+#wrapper{
+    width: 970px;
+    height: 802px;
+    background: linear-gradient(rgb(228, 228, 228), white, white);
+    margin: 0px auto;
+}
+#header{
+    width:970px;
+    height: 78px;
+    background-color: white;
+    margin: 0px auto;
+    display: block;
+}
+#header h1 {
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(72,72,72);
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: 36pt;
+}
+#header span {
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(35,100,154);
+    font-size: 36pt;
+}
+#titlebar{
+    width: 970px;
+    height: 60px;
+    background: linear-gradient(rgb(43, 105, 157), rgb(83, 132, 171), rgb(43, 105, 157));
+    display: block;
+    margin: 0px auto 2px;
+}
+#titlebar h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 24pt;
+    color: white;
+}
+#main{
+    margin: 0px auto;
+    height: 664px;
+    width: 970px;
+    display: block;
+    background-color: transparent;
+}
+#sidebar {
+    width: 206px;
+    height: 664px;
+    background-color: transparent;
+    display: inline-block;
+}
+.seperator{
+    width: auto;
+    height: 2px;
+    background-color: rgb(176, 176, 176);
+}
+#sidebar h3 {
+    font-size: 20pt;
+    position: absolute;
+    top: 435px;
+    width: 175px;
+    height: 75px;
+    text-align: center;
+    margin: 0 15px;
+    color: white;
+}
+#ninja {
+    position: absolute;
+    top: 530px;
+    text-align: center;
+    margin: 0 60px;
+    color: white;
+}
+#sideinfo {
+    height: 220px;
+    width: 206px;
+    background: transparent;
+    display: block;
+}
+#sideinfo h4 {
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+#sideinfo p{
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+h4 span {
+    font-weight: bold;
+    color: rgb(214, 28, 28);
+}
+p span {
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(16, 88, 147);
+}
+#button {
+    height: 23px;
+    width: 140px;
+    background: linear-gradient(rgb(96, 149, 191), rgb(36, 102, 158));
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(147, 143, 140);
+    padding: 7px 25px 5px;
+    margin-left: 8px;
+    margin-right: 18px;
+    margin-bottom: 4px;
+}
+#button p{
+    text-align: center;
+    margin: 0px auto;
+    font-weight: lighter;
+    font-size: 12pt;
+    color: white;
+}
+#buttonorange {
+    height: 23px;
+    width: 160px;
+    background: linear-gradient(rgb(233, 169, 89), rgb(242, 115, 0));
+    box-shadow: 2px 2px 5px rgb(147, 143, 140);
+    border-radius: 5px;
+    padding: 7px 15px 5px;
+    margin-left: 8px;
+    margin-right: 18px;
+}
+#buttonorange p{
+    text-align: center;
+    margin: 0px auto;
+    font-weight: lighter;
+    font-size: 12pt;
+    color: white;
+}
+.learnmore {
+    position: absolute;
+    top: 650px;
+    height: 18px;
+    width: 106px;
+    background: linear-gradient(rgb(123, 210, 224), rgb(14, 194, 221));
+    box-shadow: 2px 2px 5px rgb(30, 27, 25);
+    border-radius: 5px;
+    padding: 5px 32px 7px;
+    margin-left: 18px;
+    margin-right: 18px;
+    color: white;
+}
+.learnmore p {
+    text-align: center;
+    margin: 0px auto;
+}
+#background {
+    margin: 25px 3px 0;
+}
+#main_content {
+    width: 703px;
+    height: 664px;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: 56px;
+    vertical-align: top;
+    font-size: 0;
+}
+.subheader {
+    width: 703px;
+    height: 65px;
+    background-color: transparent;
+    vertical-align: top;
+    display: inline-block;
+}
+#home {
+    margin-top: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+#dns {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-left: 5px;
+    color: rgb(35,100,154);
+    font-size: 12pt;
+}
+
+#contact {
+    width: 175px;
+    height: 65px;
+    background-color: transparent;
+    vertical-align: top;
+    display: inline-block;
+}
+.phoneinfo{
+    font-size: 8px;
+    margin-right: 29px;
+    text-align: right;
+    vertical-align: top;
+}
+#phonecont{
+    width: 40px;
+    height: 65px;
+    margin-left: 416px;
+    background-color: transparent;
+    display: inline-block;
+}
+#phonecont img{
+    margin-top: 5px;
+}
+#phonenum{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(4, 174, 218);
+    margin-right: 29px;
+    text-align: right;
+}
+#subcontent1 {
+    width: 703px;
+    height: 439px;
+    background-color: transparent;
+    display: block;
+}
+h5{
+    color: rgb(39, 102, 156);
+    font-size: 13pt;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#subcontent1 p{
+    font-size: 10pt;
+    margin-bottom: 5px;
+}
+#subcontent1 li{
+    font-size: 10pt;
+    margin-right: 20px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+#subcontent1 img{
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+    font-size: 10pt;
+}
+#subcontent1 li span{
+    font-size: 10pt;
+    color: rgb(46, 168, 186);
+}
+#span1{
+    font-size: 10pt;
+    color: rgb(46, 168, 186);
+    font-weight: normal;
+}
+#subcontent2 {
+    width: 543px;
+    height: 125px;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 5px solid rgb(0, 136, 221);
+    border-right: 5px solid rgb(0, 136, 221);
+    margin: 0px auto;
+}
+#subcontent3 {
+    width: 139px;
+    height: 125px;
+    background-color: transparent;
+    border-top: 5px solid rgb(0, 136, 221);
+    border-left: 5px solid rgb(0, 136, 221);
+    display: inline-block;
+    margin: 0px auto;
+}
+#subcontent3 img {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+#subcontent2 p{
+    font-size: 10pt;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#subcontent2 span#italic {
+    font-style: italic;
+    font-size: 10pt;
+    font-weight: normal;
+    color: black;
+}
+#subcontent2 span{
+    font-size: 10pt;
+    color: rgb(46, 168, 186);
+    font-weight: normal;
+
+}
